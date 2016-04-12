@@ -1,0 +1,5 @@
+dependencies {
+
+    ajInpath project(':demo-aop')
+    compile project(':demo-aop')
+}
