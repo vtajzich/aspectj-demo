@@ -1,0 +1,28 @@
+AspectJ:
+
+☐ What is it good for?
+ ☐ crosscutting concerns
+   ☐ Logs
+   ☐ Security
+   ☐ Transaction management
+   ☐ Error Handling
+   ☐ Caching
+   ☐ Performance monitoring
+   ☐ ...
+
+☐ What is it NOT good for?
+ ☐ Do NOT replace everything with AOP :-)
+
+ ☐ Who use AspectJ / AOP style?
+   ☐ Java Industry standard for more than 10 years (initial public release in 2001)
+   ☐ Yes, it is still valid
+
+☐ Demo
+ 
+ ☐ What about groovy
+   ☐ Grovy have native built-it way how to do these things -> AST
+     ☐ AST can call same advice as Aspects, just weaving is different
+   ☐ In case of springified application Tx managenet, Caching, Security ... are done by proxies or subclassing during runtime
+ 
+
+
